@@ -1,0 +1,88 @@
+
+/* This is a CSS reset and is helpful to remove the default CSS settings that we may not know are in play */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#home-h{
+    font-size: 2rem;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+}
+
+/* List-style-type: none removes the bullet points or numbers in front of the list items */
+.nav-li{
+    margin: 1.2rem; 
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #06065D;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: hsla(240, 88%, 19%, 0.63)
+} 
+
+body{
+    color: #2F1F02;
+    font-family: monospace;
+    margin: 20px;
+    background-color: #FCF8F0;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.cards{
+    display: flex;
+}
+
+
+.cards-text {
+    /* border: 2px solid blue;  */
+    padding: 8px;
+    margin-right: 5px;
+    width: 25%;
+    /* outline: 2px solid black; 
+    outline-offset: -8px; */
+}
+
+.circle{
+    /* margin: 3rem auto;  */
+    /* background-color: blueviolet; */
+    width: 100px; 
+    height: 100px; 
+    border: 2px solid #2F1F02;
+    border-radius: 50px;
+    outline: 2px solid #2F1F02; 
+    outline-offset: 0.25rem;
+}
+
+.footer-item-margin{
+    margin: 2rem 1.2rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+
+}
+
+ul {
+    /* use this combination to move the bullet points to the center with the list items  */
+    list-style-position: inside;
+    text-align: center;
+}
