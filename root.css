@@ -14,6 +14,12 @@
     .navbar-menu{
         display: flex;
         align-items: center;
+        background-color: #A8C8D7;
+    }
+
+
+    .nav-logo{
+        margin: 1rem 0 1rem 1rem;
     }
 
     /* List-style-type: none removes the bullet points or numbers in front of the list items */
@@ -37,10 +43,6 @@
         color: #2F1F02;
         font-family: monospace;
         background-color: #FCF8F0;
-    }
-
-    #body{
-        margin: 0 20px;
     }
 
     p{
@@ -92,8 +94,12 @@
     }
 
     .logo{
-        height: 10rem; 
-        width: 10rem
+        width: 10rem; 
+        height: 10rem;
+        border: 2px solid #2F1F02;
+        border-radius: 50px;
+        outline: 2px solid #2F1F02; 
+        outline-offset: 0.25rem;
     }
 
     .heroText, .cards{
@@ -101,7 +107,7 @@
     }
 
     #footer{
-        background-color: #f6dfe5;
+        background-color: #A8C8D7ff;
         width: 100%;
         margin-left: 0px;
     }
@@ -138,7 +144,7 @@
         margin: 1.2rem; 
         list-style-type: none;
         text-decoration: none;
-    }
+    }  
 
     .link {
         text-decoration: none;
