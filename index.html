@@ -5,27 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/root.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
     <title>Example Site</title>
 </head>
 
 <body>
-    <article >
+    <article id="full-page">
         <!-- ============================================ -->
         <!--                   NAVIGATION                 -->
         <!-- ============================================ -->
 
         <nav>
             <div class="navbar-menu" id="nav">
+                <div class="navbar-list">
+                    <li class="nav-li"><a class="link" href="index.html">Home</a></li>
+                    <li class="nav-li"><a class="link" href="/about.html">About</a></li>
+                    <li class="nav-li"><a class="link" href="index.html#services">Services</a></li>
+                </div>
                 <a class="nav-logo" href="/index.html">
-                    <img class="logo" aria-hidden="true" decoding="async" src="images/my-logo.png"
-                        > </img>
+                    <img class="logo" aria-hidden="true" decoding="async" src="images/my-logo.png"> </img>
                 </a>
-                <li class="nav-li"><a class="link" href="index.html">Home</a></li>
-                <li class="nav-li"><a class="link" href="/about.html">About</a></li>
-                <li class="nav-li"><a class="link" href="index.html#services">Services</a></li>
-                <!-- <li class="nav-li"><a class="link" href="html/portfolio.html">Portfolio</a></li> -->
-                <li class="nav-li"><a class="link" href="/testimonials.html">Testimonials</a></li>
-                <li class="nav-li"><a class="link" href="/contact.html">Contact</a></li>
+                <div class="navbar-list">
+                    <li class="nav-li"><a class="link" href="html/portfolio.html">Portfolio</a></li>
+                    <li class="nav-li"><a class="link" href="/testimonials.html">Testimonials</a></li>
+                    <li class="nav-li"><a class="link" href="/contact.html">Contact</a></li>
+                </div>
             </div>
         </nav>
         </header>
@@ -39,7 +45,7 @@
             <section id="hero">
                 <div class="hero-content">
                     <div class="heroText">
-                        <h1 id="home-h">Main headline, put top keyword here</h2>
+                        <h1 id="home-h">Web Developer </h2>
                             <div class="cards">
                                 <p class="cards-text">
                                     Expand on the keyword with more keywords and add a list of related services that you

@@ -1,4 +1,3 @@
-
 /* This is a CSS reset and is helpful to remove the default CSS settings that we may not know are in play */
 * {
     margin: 0;
@@ -6,217 +5,156 @@
     box-sizing: border-box;
 }
 
+#home-h {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-right: 4rem;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A8C8D7;
+}
+
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.nav-logo {
+    margin: 1rem 0 .5rem 0;
+}
+
+/* List-style-type: none removes the bullet points or numbers in front of the list items */
+.nav-li {
+    margin: 1.2rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #06065D;
+}
+
+a:hover {
+    color: hsla(240, 88%, 19%, 0.63)
+}
+
+body {
+    color: #2F1F02;
+    font-family: 'Caveat', cursive;
+    background-color: #FFF6EAff;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cards-text {
+    /* border: 2px solid blue;  */
+    padding: 8px;
+    margin-right: 5px;
+    width: 25%;
+    /* outline: 2px solid black; 
+    outline-offset: -8px; */
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    border: 2px transparent;
+    border-radius: 50px;
+}
+
+.footer-item-margin {
+    margin: 1rem 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    height: 5rem;
+
+}
+
+#full-page{
+    padding-bottom: 5rem;
+}
+
+ul {
+    /* use this combination to move the bullet points to the center with the list items  */
+    list-style-position: inside;
+    text-align: center;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+    border: 2px transparent;
+    border-radius: 100px;
+}
+
+.heroText,
+.cards {
+    text-align: center;
+}
+
+#footer {
+    background-color: #A8C8D7ff;
+    width: 100%;
+}
+
 @media screen and (min-width: 0px) {
-#home-h{
-        font-size: 2rem;
-    }
-
-    .navbar-menu{
-        display: flex;
-        align-items: center;
-        background-color: #A8C8D7;
-    }
-
-
-    .nav-logo{
-        margin: 1rem 0 1rem 1rem;
-    }
-
-    /* List-style-type: none removes the bullet points or numbers in front of the list items */
-    .nav-li{
-        margin: 1.2rem; 
-        list-style-type: none;
-        text-decoration: none;
-    }
-
     .link {
-        text-decoration: none;
-        color: #06065D;
         font-size: 1rem;
     }
 
-    a:hover{
-        color: hsla(240, 88%, 19%, 0.63)
-    } 
-
-    body{
-        color: #2F1F02;
-        font-family: monospace;
-        background-color: #FCF8F0;
+    .navbar-list {
+        display: block;
     }
 
-    p{
-        line-height: 1.5;
-    }
-
-    .cards{
-        display: flex;
-        justify-content: space-around;
-    }
-
-
-    .cards-text {
-        /* border: 2px solid blue;  */
-        padding: 8px;
-        margin-right: 5px;
-        width: 25%;
-        /* outline: 2px solid black; 
-        outline-offset: -8px; */
-    }
-
-    .circle{
-        /* margin: 3rem auto;  */
-        /* background-color: blueviolet; */
-        width: 50px; 
-        height: 50px; 
-        border: 2px solid #2F1F02;
-        border-radius: 50px;
-        outline: 2px solid #2F1F02; 
-        outline-offset: 0.25rem;
-    }
-
-    .footer-item-margin{
-        margin: 1rem 1.2rem;
-    }
-
-    .buttons{
-        display: flex;
-        align-items: flex-end;
-        position: fixed;
-        bottom: 0;
-
-    }
-
-    ul {
-        /* use this combination to move the bullet points to the center with the list items  */
-        list-style-position: inside;
-        text-align: center;
-    }
-
-    .logo{
-        width: 10rem; 
-        height: 10rem;
-        border: 2px solid #2F1F02;
-        border-radius: 50px;
-        outline: 2px solid #2F1F02; 
-        outline-offset: 0.25rem;
-    }
-
-    .heroText, .cards{
-        text-align: center;
-    }
-
-    #footer{
-        background-color: #A8C8D7ff;
-        width: 100%;
-        margin-left: 0px;
-    }
-}   
-
-@media screen and (min-width: 450px) and (max-width: 991px) {
 }
+
+@media screen and (min-width: 450px) and (max-width: 991px) {}
 
 @media screen and (min-width: 750px) and (max-width: 1023px) {
-
-}
-
-@media screen and (min-width: 1024px){
-
-}
-
-@media screen and (min-width: 1300px){
-
-}
-
-@media only screen and (min-width: 2000px){
-
-    #home-h{
-        font-size: 2rem;
-    }
-
-    .navbar-menu{
+    .navbar-list {
         display: flex;
-        align-items: center;
     }
-
-    /* List-style-type: none removes the bullet points or numbers in front of the list items */
-    .nav-li{
-        margin: 1.2rem; 
-        list-style-type: none;
-        text-decoration: none;
-    }  
 
     .link {
-        text-decoration: none;
-        color: #06065D;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
+}
 
-    a:hover{
-        color: hsla(240, 88%, 19%, 0.63)
-    } 
-
-    body{
-        color: #2F1F02;
-        font-family: monospace;
-        margin: 0 20px;
-        background-color: #FCF8F0;
-    }
-
-    p{
-        line-height: 1.5;
-    }
-
-    .cards{
+@media screen and (min-width: 1024px) {
+    .navbar-list {
         display: flex;
-        justify-content: space-around;
     }
 
-
-    .cards-text {
-        /* border: 2px solid blue;  */
-        padding: 8px;
-        margin-right: 5px;
-        width: 25%;
-        /* outline: 2px solid black; 
-        outline-offset: -8px; */
+    .link {
+        font-size: 2rem;
     }
+}
 
-    .circle{
-        /* margin: 3rem auto;  */
-        /* background-color: blueviolet; */
-        width: 100px; 
-        height: 100px; 
-        border: 2px solid #2F1F02;
-        border-radius: 50px;
-        outline: 2px solid #2F1F02; 
-        outline-offset: 0.25rem;
-    }
-
-    .footer-item-margin{
-        margin: 2rem 1.2rem;
-    }
-
-    .buttons{
-        display: flex;
-        align-items: flex-end;
-        position: fixed;
-        bottom: 0;
-
-    }
-
-    ul {
-        /* use this combination to move the bullet points to the center with the list items  */
-        list-style-position: inside;
-        text-align: center;
-    }
-
-    .logo{
-        height: 10rem; 
-        width: 10rem
-    }
-
-    .heroText, .cards{
-        text-align: center;
+@media screen and (min-width: 1300px) {
+    .link {
+        font-size: 2rem;
     }
 }
