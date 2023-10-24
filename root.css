@@ -5,10 +5,8 @@
     box-sizing: border-box;
 }
 
-#home-h {
-    font-size: 2rem;
-    padding-top: 1rem;
-    /* padding-right: 4rem; */
+.heroText {
+    padding-top: 3rem;
 }
 
 .navbar-menu {
@@ -24,6 +22,12 @@
     align-items: center;
     justify-content: space-around;
 
+}
+
+.headshot{
+    max-width: 25%;
+    position: relative;
+    top: -120px;
 }
 
 
