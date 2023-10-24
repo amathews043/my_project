@@ -8,7 +8,7 @@
 #home-h {
     font-size: 2rem;
     padding-top: 1rem;
-    padding-right: 4rem;
+    /* padding-right: 4rem; */
 }
 
 .navbar-menu {
@@ -65,12 +65,9 @@ p {
 
 
 .cards-text {
-    /* border: 2px solid blue;  */
     padding: 8px;
     margin-right: 5px;
     width: 25%;
-    /* outline: 2px solid black; 
-    outline-offset: -8px; */
 }
 
 .circle {
@@ -129,17 +126,28 @@ ul {
         display: block;
     }
 
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 345px) {
+    .nav-li {
+        margin: 0rem;
+    }
 }
 
 @media screen and (min-width: 450px) and (max-width: 991px) {}
 
-@media screen and (min-width: 750px) and (max-width: 1023px) {
+@media screen and (min-width: 748px) and (max-width: 1023px) {
     .navbar-list {
         display: flex;
     }
 
     .link {
         font-size: 1.3rem;
+    }
+
+    #home-h {
+        padding-right: 4rem;
     }
 }
 
@@ -150,6 +158,10 @@ ul {
 
     .link {
         font-size: 2rem;
+    }
+
+    #home-h {
+        padding-right: 5rem;
     }
 }
 
