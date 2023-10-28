@@ -121,6 +121,18 @@ ul {
     width: 100%;
 }
 
+#services{
+    margin: auto;
+    width: 50%;
+    text-align: center; 
+    font-family: 'Agbalumo', cursive;
+    margin-bottom: 2rem;
+}
+
+.services-cards {
+    margin: 1rem;
+}
+
 @media screen and (min-width: 0px) {
     .link {
         font-size: 1rem;
@@ -183,6 +195,22 @@ ul {
         justify-content: space-around;
     }
 
+    .services-cards {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0, 2rem, 0, 2rem
+    }
+
+    .service-card{
+        max-width: 50%;
+        text-align: center;
+    }
+
+    .card-content{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+
 }
 
 
@@ -209,6 +237,23 @@ ul {
         justify-content: space-around;
     }
 
+    .services-cards {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0, 2rem, 0, 2rem
+    }
+
+    .service-card{
+        max-width: 50%;
+        text-align: center;
+
+    }
+
+    .card-content{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+
 
 }
 
@@ -224,6 +269,24 @@ ul {
     .cards {
         display: flex;
         justify-content: space-around;
+    }
+
+    .services-cards {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0, 2rem, 0, 2rem
+    }
+
+    .service-card{
+        max-width: 50%;
+        text-align: center;
+        margin: 0 2rem 0 2rem;
+
+    }
+
+    .card-content{
+        margin-top: 1rem;
+        font-size: 1.8rem;
     }
 
 }

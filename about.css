@@ -1,4 +1,4 @@
-.about-header{
+.about-header, .testimonials-header, .portfolio-header{
     font-size: 2rem;
     font-family: 'Agbalumo', cursive;
     width: 50%;
@@ -13,4 +13,11 @@
     margin-top: 2rem;
     text-align: center;
     font-size: 1.8rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    text-align: center;
 }
