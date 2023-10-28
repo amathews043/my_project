@@ -1,0 +1,16 @@
+.about-header{
+    font-size: 2rem;
+    font-family: 'Agbalumo', cursive;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.about-text{
+    margin: auto;
+    width: 50%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
