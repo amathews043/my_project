@@ -79,6 +79,7 @@ p {
     height: 3rem;
     border: 2px transparent;
     border-radius: 50px;
+    transform: rotate(-10deg)
 }
 
 .footer-item-margin {
@@ -109,6 +110,7 @@ ul {
     height: 10rem;
     border: 2px transparent;
     border-radius: 100px;
+    transform: rotate(-10deg)
 }
 
 .heroText,
