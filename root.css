@@ -27,7 +27,12 @@
 .headshot{
     max-width: 25%;
     position: relative;
-    top: -120px;
+}
+
+.h1{
+    font-size: 3rem;
+    font-family: 'Agbalumo', cursive;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -60,11 +65,6 @@ body {
 
 p {
     line-height: 1.5;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-around;
 }
 
 
@@ -133,13 +133,33 @@ ul {
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 345px) {
+@media screen and (min-width: 0px) and (max-width: 449px) {
     .nav-li {
         margin: 0rem;
     }
+    .headshot{
+        top: -60px;
+        max-width: 15rem;
+        max-height: 20rem;
+    }
+    .cards-text{
+        margin: auto;
+        width: 50%
+
+    }
 }
 
-@media screen and (min-width: 450px) and (max-width: 991px) {}
+@media screen and (min-width: 450px) and (max-width: 991px) {
+    .headshot{
+        top: -100px;
+        max-width: 20rem;
+    }
+
+    .cards-text{
+        width: 50%
+
+    }
+}
 
 @media screen and (min-width: 748px) and (max-width: 1023px) {
     .navbar-list {
@@ -153,7 +173,19 @@ ul {
     #home-h {
         padding-right: 4rem;
     }
+
+    .headshot{
+        top: -100px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
+
+
 
 @media screen and (min-width: 1024px) {
     .navbar-list {
@@ -167,10 +199,31 @@ ul {
     #home-h {
         padding-right: 5rem;
     }
+
+    .headshot{
+        top: -100px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
 }
 
 @media screen and (min-width: 1300px) {
     .link {
         font-size: 2rem;
     }
+
+    .headshot{
+        top: -120px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
